@@ -33,7 +33,7 @@ else if (number == 6)
 else if (number == 7)
 {
     Console.WriteLine("Воскресенье");
-} 
+}
 else
 {
     Console.WriteLine("Такого дня недели ещё не придумали!");
