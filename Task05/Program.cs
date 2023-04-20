@@ -10,6 +10,6 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 int count = -numberA;
 while (count <= numberA)
 {
-    Console.WriteLine(count + " ");
+    Console.Write(count + " ");
     count++;
 }
