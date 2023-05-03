@@ -7,7 +7,7 @@ void TableAllSqares(int num)
     int index = 1;
     while (index <= num)
     {
-        Console.WriteLine($"{index}  {index * index}");
+        Console.WriteLine($"{index, 3}  {index * index, 4}");
         index++;
     }
 }
