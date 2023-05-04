@@ -38,13 +38,13 @@ bool PalindromeCheck (int num)
 }
 bool CheckinNumber(int numb)
 {
-    if (numb >= 100000 && numb < 10000)
+    if (numb < 100000 && numb >= 10000)
     {
-        Console.WriteLine($"{numb} -> Это не пятизначное число!");
         return true;
     }
     else
     {
+        Console.WriteLine($"{numb} -> Это не пятизначное число!");
         return false;
     }
 
@@ -55,6 +55,7 @@ if (CheckinNumber(number))
 {
     Console.WriteLine(PalindromeCheck(number));
 }
+
 
 // if (number >= 100000 && number < 10000)
 // {
