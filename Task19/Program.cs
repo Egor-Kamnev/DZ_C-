@@ -55,18 +55,3 @@ if (CheckinNumber(number))
 {
     Console.WriteLine(PalindromeCheck(number));
 }
-
-
-// if (number >= 100000 && number < 10000)
-// {
-//     Console.WriteLine($"{number} -> Это не пятизначное число!");
-// }
-// else (PalindromeCheck(number))
-// {
-//     Console.WriteLine($"{number} -> Да");
-// }
-// else
-// {
-//     Console.WriteLine($"{number} -> Нет");
-// }
-
