@@ -9,7 +9,7 @@ void CheckNatural (int numA, int numB,int exponent )
 {
     if (numB < 0)
     {
-    Console.WriteLine("Вы ввели не натуральное число =(");
+        Console.WriteLine("Вы ввели не натуральное число =(");
     }
     else
     {
@@ -34,7 +34,3 @@ Console.WriteLine("Введите второе число:");
 int twoNumber = Convert.ToInt32(Console.ReadLine());
 int exponentiation = Exponentiation(oneNumber, twoNumber);
 CheckNatural(oneNumber, twoNumber, exponentiation);
-// Console.Write($"{oneNumber} , {twoNumber} -> {exponentiation}");
-
-
-
