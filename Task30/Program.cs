@@ -10,7 +10,7 @@ int[] CreateArrey(int size)
     Random random = new Random();
     for (int i = 0; i < arrey.Length; i++)
     {
-        arrey[i] = new Random().Next( 0, 2);
+        arrey[i] = random.Next( 0, 2);
     }
     return arrey;
 }
